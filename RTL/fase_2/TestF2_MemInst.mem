@@ -1,0 +1,52 @@
+// =============================================================
+// TestF2_MemInst.mem — Programa de validación Fase 2
+// Banco de registros precargado con TestF1_BReg.mem (R[N]=N)
+//
+// Programa (Figura 1 del PDF):
+//   .inicio:
+//   [0]  nop                     -> sll $0,$0,0       -> $0 = 0 (sin efecto)
+//   [1]  addi $t0, $zero, 10     -> $t0 (reg 8)  = 10
+//   [2]  slti $t1, $zero, 10     -> $t1 (reg 9)  = 1  (0 < 10)
+//   [3]  andi $t2, $zero, 10     -> $t2 (reg 10) = 0  (0 AND 10 = 0)
+//   [4]  ori  $t3, $zero, 10     -> $t3 (reg 11) = 10 (0 OR 10 = 10)
+//   [5]  sw   $t0, 0($zero)      -> mem[0] = 10
+//   [6]  lw   $t4, 0($zero)      -> $t4 (reg 12) = mem[0] = 10
+//   [7]  beq  $zero,$zero,.inicio -> salta a .inicio (offset=-8)
+//   [8]  nop                     -> (nunca se ejecuta por el beq)
+//
+// Resultados esperados según el PDF:
+//   reg 8  ($t0) = 10 (decimal)
+//   reg 9  ($t1) = 1  (decimal)
+//   reg 10 ($t2) = 0  (decimal)
+//   reg 11 ($t3) = 10 (decimal)  [nota: 1 en octal/decimal depende del contexto]
+//   mem[0]        = 10
+//   reg 12 ($t4) = 10 (decimal)
+// =============================================================
+
+// [0]  nop  →  sll $0, $0, 0  →  opcode=000000 rs=00000 rt=00000 rd=00000 shamt=00000 funct=000000
+00000000000000000000000000000000
+
+// [1]  addi $t0, $zero, 10  →  opcode=001000 rs=00000 rt=01000 imm=0000000000001010
+00100000000010000000000000001010
+
+// [2]  slti $t1, $zero, 10  →  opcode=001010 rs=00000 rt=01001 imm=0000000000001010
+00101000000010010000000000001010
+
+// [3]  andi $t2, $zero, 10  →  opcode=001100 rs=00000 rt=01010 imm=0000000000001010
+00110000000010100000000000001010
+
+// [4]  ori  $t3, $zero, 10  →  opcode=001101 rs=00000 rt=01011 imm=0000000000001010
+00110100000010110000000000001010
+
+// [5]  sw   $t0, 0($zero)   →  opcode=101011 rs=00000 rt=01000 imm=0000000000000000
+10101100000010000000000000000000
+
+// [6]  lw   $t4, 0($zero)   →  opcode=100011 rs=00000 rt=01100 imm=0000000000000000
+10001100000011000000000000000000
+
+// [7]  beq  $zero,$zero,.inicio  →  opcode=000100 rs=00000 rt=00000 offset=1111111111111000
+//      offset = (.inicio - (PC_beq+4)) / 4 = (0 - 32) / 4 = -8 = 0xFFF8 = 1111111111111000
+00010000000000001111111111111000
+
+// [8]  nop (nunca se alcanza por el beq)
+00000000000000000000000000000000

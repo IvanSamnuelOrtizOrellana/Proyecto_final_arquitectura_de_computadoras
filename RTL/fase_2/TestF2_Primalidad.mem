@@ -1,0 +1,88 @@
+// =============================================================
+// TestF2_Primalidad.mem
+// Algoritmo: Test de Primalidad por Restas Sucesivas
+// Propuesto en el Reporte de Fase 1 del equipo
+//
+// Con Fase 2 el datapath soporta: addi, slti, beq, lw, sw
+// Este algoritmo ahora puede ejecutarse completamente en hardware.
+//
+// Entradas (cargadas por addi):
+//   n = 7  (número a verificar)
+//
+// Registros:
+//   $t0 (8)  = n (número a probar)
+//   $t1 (9)  = divisor (empieza en 2, sube hasta n-1)
+//   $t2 (10) = residuo (copia de n, se va restando el divisor)
+//   $t3 (11) = bandera temporal (resultado de slti)
+//   $t4 (12) = constante 1
+//   $v0 (2)  = resultado final: 1=primo, 0=no primo
+//
+// Resultado esperado para n=7: $v0 = 1 (primo)
+//
+// Ensamblador:
+//   [0]  nop
+//   [1]  addi $t0, $zero, 7      # n = 7
+//   [2]  addi $t1, $zero, 2      # divisor = 2
+//   [3]  addi $t4, $zero, 1      # constante 1
+//   [4]  addi $v0, $zero, 1      # resultado = 1 (asumimos primo)
+// loop_div: [5]
+//   [5]  slti $t3, $t1, 7        # t3 = (divisor < n)?
+//   [6]  beq  $t3, $zero, fin    # si no -> divisor >= n -> es primo
+// init_mod: [7]
+//   [7]  add  $t2, $t0, $zero    # residuo = n
+// loop_mod: [8]
+//   [8]  slti $t3, $t2, 1        # t3 = (residuo < 1)?
+//   [9]  beq  $t3, $zero, sub_mod  # t3==0 -> residuo >= 1 -> seguir restando
+//   [10] beq  $t2, $zero, no_primo # residuo==0 -> divisible
+//   [11] beq  $zero, $zero, next_div # residuo negativo -> siguiente divisor
+// sub_mod: [12]
+//   [12] sub  $t2, $t2, $t1      # residuo -= divisor
+//   [13] beq  $zero, $zero, loop_mod # volver a loop_mod
+// next_div: [14]
+//   [14] addi $t1, $t1, 1        # divisor++
+//   [15] beq  $zero, $zero, loop_div # volver a loop_div
+// no_primo: [16]
+//   [16] addi $v0, $zero, 0      # resultado = 0 (no es primo)
+// fin: [17]
+//   [17] nop
+//   [18] beq $zero,$zero, fin    # halt (loop infinito)
+// =============================================================
+
+// [0]  nop
+00000000000000000000000000000000
+// [1]  addi $t0, $zero, 7
+00100000000010000000000000000111
+// [2]  addi $t1, $zero, 2
+00100000000010010000000000000010
+// [3]  addi $t4, $zero, 1
+00100000000011000000000000000001
+// [4]  addi $v0, $zero, 1
+00100000000000100000000000000001
+// [5]  loop_div: slti $t3, $t1, 7
+00101001001010110000000000000111
+// [6]  beq $t3, $zero, fin  (offset=+10)
+00010001011000000000000000001010
+// [7]  init_mod: add $t2, $t0, $zero
+00000001000000000101000000100000
+// [8]  loop_mod: slti $t3, $t2, 1
+00101001010010110000000000000001
+// [9]  beq $t3, $zero, sub_mod  (offset=+2)
+00010001011000000000000000000010
+// [10] beq $t2, $zero, no_primo  (offset=+5)
+00010001010000000000000000000101
+// [11] beq $zero, $zero, next_div  (offset=+2)
+00010000000000000000000000000010
+// [12] sub_mod: sub $t2, $t2, $t1
+00000001010010010101000000100010
+// [13] beq $zero, $zero, loop_mod  (offset=-6)
+00010000000000001111111111111010
+// [14] next_div: addi $t1, $t1, 1
+00100001001010010000000000000001
+// [15] beq $zero, $zero, loop_div  (offset=-11)
+00010000000000001111111111110101
+// [16] no_primo: addi $v0, $zero, 0
+00100000000000100000000000000000
+// [17] fin: nop
+00000000000000000000000000000000
+// [18] halt: beq $zero,$zero,fin  (offset=-2)
+00010000000000001111111111111110
