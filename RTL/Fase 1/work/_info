@@ -1,0 +1,299 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/derek/OneDrive/Desktop
+vAdder
+!s110 1778010823
+!i10b 1
+!s100 B13S7Gg9zn7EJ<QgQO9d33
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImJbSPKF9GlkTCF``]QVP73
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/ProyectoFinalArquitectura
+w1778007174
+8C:/ProyectoFinalArquitectura/Adder.v
+FC:/ProyectoFinalArquitectura/Adder.v
+!i122 24
+L0 2 7
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1778010823.000000
+!s107 C:/ProyectoFinalArquitectura/Adder.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/Adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@adder
+vALU
+Z7 !s110 1778010824
+!i10b 1
+!s100 R^h`AeM>IYKPWPEaln=Ig1
+R0
+I>65=9cgT4QBDIT]PU=19^3
+R1
+R2
+w1778007225
+8C:/ProyectoFinalArquitectura/ALU.v
+FC:/ProyectoFinalArquitectura/ALU.v
+!i122 25
+Z8 L0 2 24
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/ProyectoFinalArquitectura/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/ALU.v|
+!i113 1
+R5
+R6
+n@a@l@u
+vALUControl
+R7
+!i10b 1
+!s100 5<B>djH`K?A<Dg4]PUlGW1
+R0
+IR:]H?U3LEng>[[[PbPSO72
+R1
+R2
+w1778007234
+8C:/ProyectoFinalArquitectura/ALUControl.v
+FC:/ProyectoFinalArquitectura/ALUControl.v
+!i122 26
+R8
+R3
+r1
+!s85 0
+31
+Z9 !s108 1778010824.000000
+!s107 C:/ProyectoFinalArquitectura/ALUControl.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/ALUControl.v|
+!i113 1
+R5
+R6
+n@a@l@u@control
+vControl
+R7
+!i10b 1
+!s100 ^d;RG:znJFB]He>a:GcI<2
+R0
+IRVo=;ZQYKzNFdE>5P`I_63
+R1
+R2
+w1778007244
+8C:/ProyectoFinalArquitectura/Control.v
+FC:/ProyectoFinalArquitectura/Control.v
+!i122 27
+L0 2 28
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/ProyectoFinalArquitectura/Control.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/Control.v|
+!i113 1
+R5
+R6
+n@control
+vDataMemory
+R7
+!i10b 1
+!s100 =X@GM9KgHN2>@d3U>4WM;2
+R0
+I_K[JffNbhEZF`S7A`10;K0
+R1
+R2
+w1778007256
+8C:/ProyectoFinalArquitectura/DataMemory.v
+FC:/ProyectoFinalArquitectura/DataMemory.v
+!i122 28
+L0 2 19
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/ProyectoFinalArquitectura/DataMemory.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/DataMemory.v|
+!i113 1
+R5
+R6
+n@data@memory
+vInstructionMemory
+R7
+!i10b 1
+!s100 1FWln3HSG2GMOKb@SUzS40
+R0
+IPWS55;RC3dB8V[N=<_Co:2
+R1
+R2
+w1778007182
+8C:/ProyectoFinalArquitectura/InstructionMemory.v
+FC:/ProyectoFinalArquitectura/InstructionMemory.v
+!i122 29
+L0 2 14
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/ProyectoFinalArquitectura/InstructionMemory.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/InstructionMemory.v|
+!i113 1
+R5
+R6
+n@instruction@memory
+vMIPS_Top
+Z10 !s110 1778010825
+!i10b 1
+!s100 bM2Pe1T^7?WjWbYl;STJJ2
+R0
+Iz;IU`:WIFhiVli>XORQU92
+R1
+R2
+w1778007322
+8C:/ProyectoFinalArquitectura/MIPS_Top.v
+FC:/ProyectoFinalArquitectura/MIPS_Top.v
+!i122 30
+L0 2 86
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/ProyectoFinalArquitectura/MIPS_Top.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/MIPS_Top.v|
+!i113 1
+R5
+R6
+n@m@i@p@s_@top
+vMux2
+R10
+!i10b 1
+!s100 NT?B@9R?:3<Y5MC]W6inZ0
+R0
+I2;RZWJRkYaPgfR05^MJ=o0
+R1
+R2
+w1778007124
+8C:/ProyectoFinalArquitectura/Mux2.v
+FC:/ProyectoFinalArquitectura/Mux2.v
+!i122 31
+L0 2 8
+R3
+r1
+!s85 0
+31
+Z11 !s108 1778010825.000000
+!s107 C:/ProyectoFinalArquitectura/Mux2.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/Mux2.v|
+!i113 1
+R5
+R6
+n@mux2
+vPC
+R10
+!i10b 1
+!s100 mMPa<ML`^4j1dX]oi?^bJ2
+R0
+I9?^4=5gWKo28;OAF=d6_<2
+R1
+R2
+w1778007162
+8C:/ProyectoFinalArquitectura/PC.v
+FC:/ProyectoFinalArquitectura/PC.v
+!i122 32
+L0 2 13
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/ProyectoFinalArquitectura/PC.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/PC.v|
+!i113 1
+R5
+R6
+n@p@c
+vRegisterFile
+Z12 !s110 1778010826
+!i10b 1
+!s100 gQHdz9c<7:5^EcF09RaeF3
+R0
+IVSc5Y?]l>;_^M`E9K0WgQ1
+R1
+R2
+w1778007215
+8C:/ProyectoFinalArquitectura/RegisterFile.v
+FC:/ProyectoFinalArquitectura/RegisterFile.v
+!i122 33
+L0 2 27
+R3
+r1
+!s85 0
+31
+Z13 !s108 1778010826.000000
+!s107 C:/ProyectoFinalArquitectura/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/RegisterFile.v|
+!i113 1
+R5
+R6
+n@register@file
+vSignExtend
+R12
+!i10b 1
+!s100 ePf=5Y2Jz33;7LGODA7QF1
+R0
+I;Xi5]=o6M]J:figd4AH`S0
+R1
+R2
+w1778007150
+8C:/ProyectoFinalArquitectura/SignExtend.v
+FC:/ProyectoFinalArquitectura/SignExtend.v
+!i122 34
+L0 2 6
+R3
+r1
+!s85 0
+31
+R13
+!s107 C:/ProyectoFinalArquitectura/SignExtend.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/SignExtend.v|
+!i113 1
+R5
+R6
+n@sign@extend
+vtb_MIPS
+R12
+!i10b 1
+!s100 _Uh2ID_eML`Y0ATT^_m0>2
+R0
+IV4cG8ERimgn>9i^T`8oIH2
+R1
+R2
+w1778007365
+8C:/ProyectoFinalArquitectura/tb_MIPS.v
+FC:/ProyectoFinalArquitectura/tb_MIPS.v
+!i122 35
+L0 5 30
+R3
+r1
+!s85 0
+31
+R13
+!s107 C:/ProyectoFinalArquitectura/tb_MIPS.v|
+!s90 -reportprogress|300|-work|work|C:/ProyectoFinalArquitectura/tb_MIPS.v|
+!i113 1
+R5
+R6
+ntb_@m@i@p@s
