@@ -1,0 +1,43 @@
+Formato tipo R:
+opcode rs rt rd shamt funct
+
+Opcode:
+000000
+
+Instrucciones implementadas:
+
+ADD
+funct = 100000
+Sintaxis:
+add $rd, $rs, $rt
+
+SUB
+funct = 100010
+
+AND
+funct = 100100
+
+OR
+funct = 100101
+
+XOR
+funct = 100110
+
+NOR
+funct = 100111
+
+SLT
+funct = 101010
+
+SLL
+funct = 000000
+Sintaxis:
+sll $rd, $rt, shamt
+
+SRL
+funct = 000010
+Sintaxis:
+srl $rd, $rt, shamt
+
+NOP
+sll $0, $0, 0
