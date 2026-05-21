@@ -1,0 +1,31 @@
+Arquitectura actual:
+- MIPS32 single-cycle
+- Harvard architecture
+- 32 registros
+- ALU de 32 bits
+- PC incrementa de 4 en 4
+- Instruction Memory de 256 palabras
+- Banco de registros precargado
+- ALU soporta:
+  add
+  sub
+  and
+  or
+  xor
+  nor
+  slt
+  sll
+  srl
+
+Restricciones:
+- sin pipeline
+- sin forwarding
+- sin cache
+- sin interrupciones
+- sin memoria de datos aún
+- sin branch logic completo
+
+Herramientas:
+- Verilog HDL
+- ModelSim
+- Vivado
