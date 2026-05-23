@@ -357,7 +357,7 @@ do_sub:
 
 | Herramienta | Versión recomendada | Uso |
 |-------------|---------------------|-----|
-| ModelSim-Altera | 20.1 o superior | Simulación y verificación |
+| ModelSim | 20.1 o superior | Simulación y verificación |
 
 ---
 
