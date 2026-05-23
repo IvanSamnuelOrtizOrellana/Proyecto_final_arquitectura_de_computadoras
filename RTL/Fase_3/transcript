@@ -1,0 +1,334 @@
+vsim work.tb_MIPS
+# vsim work.tb_MIPS 
+# Start time: 00:15:31 on May 23,2026
+# Loading work.tb_MIPS
+# Loading work.MIPS_Top
+# Loading work.PC
+# Loading work.Adder
+# Loading work.InstructionMemory
+# Loading work.IF_ID
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.SignExtend
+# Loading work.ID_EX
+# Loading work.Mux2
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ShiftLeft2
+# Loading work.EX_MEM
+# Loading work.DataMemory
+# Loading work.MEM_WB
+vsim work.tb_MIPS
+# End time: 00:15:35 on May 23,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# vsim work.tb_MIPS 
+# Start time: 00:15:35 on May 23,2026
+# Loading work.tb_MIPS
+# Loading work.MIPS_Top
+# Loading work.PC
+# Loading work.Adder
+# Loading work.InstructionMemory
+# Loading work.IF_ID
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.SignExtend
+# Loading work.ID_EX
+# Loading work.Mux2
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ShiftLeft2
+# Loading work.EX_MEM
+# Loading work.DataMemory
+# Loading work.MEM_WB
+vsim work.tb_MIPS
+# End time: 00:15:37 on May 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim work.tb_MIPS 
+# Start time: 00:15:37 on May 23,2026
+# Loading work.tb_MIPS
+# Loading work.MIPS_Top
+# Loading work.PC
+# Loading work.Adder
+# Loading work.InstructionMemory
+# Loading work.IF_ID
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.SignExtend
+# Loading work.ID_EX
+# Loading work.Mux2
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ShiftLeft2
+# Loading work.EX_MEM
+# Loading work.DataMemory
+# Loading work.MEM_WB
+add wave -position end  sim:/tb_MIPS/clk
+add wave -position end  sim:/tb_MIPS/clk
+add wave -position end  sim:/tb_MIPS/dut/pc
+add wave -position end  sim:/tb_MIPS/dut/alu_result
+add wave -position end sim:/tb_MIPS/dut/rf/*
+add wave -position end  sim:/tb_MIPS/dut/rf/registers
+run 600 ns
+# Tiempo=0 | PC=00000000 | Instr=20080005 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=15000 | PC=00000004 | Instr=20090002 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=25000 | PC=00000008 | Instr=200b0001 | ALU_Res=00000005 | Escribe_Reg=0 | s0=00000000
+# Tiempo=35000 | PC=0000000c | Instr=11280009 | ALU_Res=00000002 | Escribe_Reg=0 | s0=00000000
+# Tiempo=45000 | PC=00000010 | Instr=00085020 | ALU_Res=00000001 | Escribe_Reg=1 | s0=00000000
+# Tiempo=55000 | PC=00000014 | Instr=0149602a | ALU_Res=fffffffd | Escribe_Reg=1 | s0=00000000
+# Tiempo=65000 | PC=00000018 | Instr=11800001 | ALU_Res=00000005 | Escribe_Reg=1 | s0=00000000
+# Tiempo=75000 | PC=0000001c | Instr=0800000a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=85000 | PC=00000020 | Instr=01495022 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=105000 | PC=00000024 | Instr=08000005 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=115000 | PC=00000028 | Instr=11400004 | ALU_Res=00000003 | Escribe_Reg=0 | s0=00000000
+# Tiempo=125000 | PC=00000014 | Instr=0149602a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=135000 | PC=00000018 | Instr=11800001 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=145000 | PC=0000001c | Instr=0800000a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=155000 | PC=00000020 | Instr=01495022 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=165000 | PC=00000020 | Instr=01495022 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=175000 | PC=00000024 | Instr=08000005 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=185000 | PC=00000028 | Instr=11400004 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=195000 | PC=00000014 | Instr=0149602a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=205000 | PC=00000018 | Instr=11800001 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=215000 | PC=0000001c | Instr=0800000a | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=225000 | PC=00000020 | Instr=01495022 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=235000 | PC=00000028 | Instr=11400004 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=245000 | PC=0000002c | Instr=012b4820 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=255000 | PC=00000030 | Instr=08000003 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=265000 | PC=00000034 | Instr=20100001 | ALU_Res=00000003 | Escribe_Reg=0 | s0=00000000
+# Tiempo=275000 | PC=0000000c | Instr=11280009 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=285000 | PC=00000010 | Instr=00085020 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=295000 | PC=00000014 | Instr=0149602a | ALU_Res=fffffffe | Escribe_Reg=0 | s0=00000000
+# Tiempo=305000 | PC=00000018 | Instr=11800001 | ALU_Res=00000005 | Escribe_Reg=0 | s0=00000000
+# Tiempo=315000 | PC=0000001c | Instr=0800000a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=325000 | PC=00000020 | Instr=01495022 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=345000 | PC=00000024 | Instr=08000005 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=355000 | PC=00000028 | Instr=11400004 | ALU_Res=00000002 | Escribe_Reg=0 | s0=00000000
+# Tiempo=365000 | PC=00000014 | Instr=0149602a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=375000 | PC=00000018 | Instr=11800001 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=385000 | PC=0000001c | Instr=0800000a | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=395000 | PC=00000020 | Instr=01495022 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=405000 | PC=00000028 | Instr=11400004 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=415000 | PC=0000002c | Instr=012b4820 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=425000 | PC=00000030 | Instr=08000003 | ALU_Res=00000002 | Escribe_Reg=0 | s0=00000000
+# Tiempo=435000 | PC=00000034 | Instr=20100001 | ALU_Res=00000004 | Escribe_Reg=0 | s0=00000000
+# Tiempo=445000 | PC=0000000c | Instr=11280009 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=455000 | PC=00000010 | Instr=00085020 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=465000 | PC=00000014 | Instr=0149602a | ALU_Res=ffffffff | Escribe_Reg=0 | s0=00000000
+# Tiempo=475000 | PC=00000018 | Instr=11800001 | ALU_Res=00000005 | Escribe_Reg=0 | s0=00000000
+# Tiempo=485000 | PC=0000001c | Instr=0800000a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=495000 | PC=00000020 | Instr=01495022 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=515000 | PC=00000024 | Instr=08000005 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=525000 | PC=00000028 | Instr=11400004 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=535000 | PC=00000014 | Instr=0149602a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=545000 | PC=00000018 | Instr=11800001 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=555000 | PC=0000001c | Instr=0800000a | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=565000 | PC=00000020 | Instr=01495022 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=575000 | PC=00000028 | Instr=11400004 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=585000 | PC=0000002c | Instr=012b4820 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=595000 | PC=00000030 | Instr=08000003 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+run 2000 ns
+# Tiempo=605000 | PC=00000034 | Instr=20100001 | ALU_Res=00000005 | Escribe_Reg=0 | s0=00000000
+# ** Note: $stop    : C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/tb_MIPS.v(25)
+#    Time: 610 ns  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/tb_MIPS.v line 25
+run 2000 ns
+# Tiempo=615000 | PC=0000000c | Instr=11280009 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=625000 | PC=00000010 | Instr=00085020 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=635000 | PC=00000014 | Instr=0149602a | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=645000 | PC=00000034 | Instr=20100001 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=655000 | PC=00000038 | Instr=08000010 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=665000 | PC=0000003c | Instr=00008020 | ALU_Res=00000001 | Escribe_Reg=0 | s0=00000000
+# Tiempo=675000 | PC=00000040 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000000
+# Tiempo=685000 | PC=00000044 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=1 | s0=00000000
+# Tiempo=695000 | PC=00000048 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=705000 | PC=0000004c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=715000 | PC=00000050 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=725000 | PC=00000054 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=735000 | PC=00000058 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=745000 | PC=0000005c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=755000 | PC=00000060 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=765000 | PC=00000064 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=775000 | PC=00000068 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=785000 | PC=0000006c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=795000 | PC=00000070 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=805000 | PC=00000074 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=815000 | PC=00000078 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=825000 | PC=0000007c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=835000 | PC=00000080 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=845000 | PC=00000084 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=855000 | PC=00000088 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=865000 | PC=0000008c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=875000 | PC=00000090 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=885000 | PC=00000094 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=895000 | PC=00000098 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=905000 | PC=0000009c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=915000 | PC=000000a0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=925000 | PC=000000a4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=935000 | PC=000000a8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=945000 | PC=000000ac | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=955000 | PC=000000b0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=965000 | PC=000000b4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=975000 | PC=000000b8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=985000 | PC=000000bc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=995000 | PC=000000c0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1005000 | PC=000000c4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1015000 | PC=000000c8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1025000 | PC=000000cc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1035000 | PC=000000d0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1045000 | PC=000000d4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1055000 | PC=000000d8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1065000 | PC=000000dc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1075000 | PC=000000e0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1085000 | PC=000000e4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1095000 | PC=000000e8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1105000 | PC=000000ec | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1115000 | PC=000000f0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1125000 | PC=000000f4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1135000 | PC=000000f8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1145000 | PC=000000fc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1155000 | PC=00000100 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1165000 | PC=00000104 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1175000 | PC=00000108 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1185000 | PC=0000010c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1195000 | PC=00000110 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1205000 | PC=00000114 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1215000 | PC=00000118 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1225000 | PC=0000011c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1235000 | PC=00000120 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1245000 | PC=00000124 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1255000 | PC=00000128 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1265000 | PC=0000012c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1275000 | PC=00000130 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1285000 | PC=00000134 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1295000 | PC=00000138 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1305000 | PC=0000013c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1315000 | PC=00000140 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1325000 | PC=00000144 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1335000 | PC=00000148 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1345000 | PC=0000014c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1355000 | PC=00000150 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1365000 | PC=00000154 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1375000 | PC=00000158 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1385000 | PC=0000015c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1395000 | PC=00000160 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1405000 | PC=00000164 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1415000 | PC=00000168 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1425000 | PC=0000016c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1435000 | PC=00000170 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1445000 | PC=00000174 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1455000 | PC=00000178 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1465000 | PC=0000017c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1475000 | PC=00000180 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1485000 | PC=00000184 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1495000 | PC=00000188 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1505000 | PC=0000018c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1515000 | PC=00000190 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1525000 | PC=00000194 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1535000 | PC=00000198 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1545000 | PC=0000019c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1555000 | PC=000001a0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1565000 | PC=000001a4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1575000 | PC=000001a8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1585000 | PC=000001ac | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1595000 | PC=000001b0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1605000 | PC=000001b4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1615000 | PC=000001b8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1625000 | PC=000001bc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1635000 | PC=000001c0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1645000 | PC=000001c4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1655000 | PC=000001c8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1665000 | PC=000001cc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1675000 | PC=000001d0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1685000 | PC=000001d4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1695000 | PC=000001d8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1705000 | PC=000001dc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1715000 | PC=000001e0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1725000 | PC=000001e4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1735000 | PC=000001e8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1745000 | PC=000001ec | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1755000 | PC=000001f0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1765000 | PC=000001f4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1775000 | PC=000001f8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1785000 | PC=000001fc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1795000 | PC=00000200 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1805000 | PC=00000204 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1815000 | PC=00000208 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1825000 | PC=0000020c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1835000 | PC=00000210 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1845000 | PC=00000214 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1855000 | PC=00000218 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1865000 | PC=0000021c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1875000 | PC=00000220 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1885000 | PC=00000224 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1895000 | PC=00000228 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1905000 | PC=0000022c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1915000 | PC=00000230 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1925000 | PC=00000234 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1935000 | PC=00000238 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1945000 | PC=0000023c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1955000 | PC=00000240 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1965000 | PC=00000244 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1975000 | PC=00000248 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1985000 | PC=0000024c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=1995000 | PC=00000250 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2005000 | PC=00000254 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2015000 | PC=00000258 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2025000 | PC=0000025c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2035000 | PC=00000260 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2045000 | PC=00000264 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2055000 | PC=00000268 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2065000 | PC=0000026c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2075000 | PC=00000270 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2085000 | PC=00000274 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2095000 | PC=00000278 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2105000 | PC=0000027c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2115000 | PC=00000280 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2125000 | PC=00000284 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2135000 | PC=00000288 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2145000 | PC=0000028c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2155000 | PC=00000290 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2165000 | PC=00000294 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2175000 | PC=00000298 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2185000 | PC=0000029c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2195000 | PC=000002a0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2205000 | PC=000002a4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2215000 | PC=000002a8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2225000 | PC=000002ac | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2235000 | PC=000002b0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2245000 | PC=000002b4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2255000 | PC=000002b8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2265000 | PC=000002bc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2275000 | PC=000002c0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2285000 | PC=000002c4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2295000 | PC=000002c8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2305000 | PC=000002cc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2315000 | PC=000002d0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2325000 | PC=000002d4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2335000 | PC=000002d8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2345000 | PC=000002dc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2355000 | PC=000002e0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2365000 | PC=000002e4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2375000 | PC=000002e8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2385000 | PC=000002ec | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2395000 | PC=000002f0 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2405000 | PC=000002f4 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2415000 | PC=000002f8 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2425000 | PC=000002fc | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2435000 | PC=00000300 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2445000 | PC=00000304 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2455000 | PC=00000308 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2465000 | PC=0000030c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2475000 | PC=00000310 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2485000 | PC=00000314 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2495000 | PC=00000318 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2505000 | PC=0000031c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2515000 | PC=00000320 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2525000 | PC=00000324 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2535000 | PC=00000328 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2545000 | PC=0000032c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2555000 | PC=00000330 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2565000 | PC=00000334 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2575000 | PC=00000338 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2585000 | PC=0000033c | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2595000 | PC=00000340 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001
+# Tiempo=2605000 | PC=00000344 | Instr=00000000 | ALU_Res=00000000 | Escribe_Reg=0 | s0=00000001

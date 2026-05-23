@@ -1,0 +1,120 @@
+C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/InstructionMemory.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/InstructionMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/RegisterFile.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/MEM_WB.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/MEM_WB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/SignExtend.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/SignExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/Control.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ID_EX.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ID_EX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ALU.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ShiftLeft2.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ShiftLeft2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftLeft2
+
+Top level modules:
+	ShiftLeft2
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/PC.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ALUControl.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/ALUControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/DataMemory.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/DataMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/EX_MEM.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/EX_MEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/IF_ID.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/IF_ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/MIPS_Top.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/MIPS_Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS_Top
+
+Top level modules:
+	MIPS_Top
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/Mux2.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/Mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/tb_MIPS.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/tb_MIPS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_MIPS
+
+Top level modules:
+	tb_MIPS
+
+} {} {}} C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/Adder.v {1 {vlog -work work -stats=none C:/Users/ivang/Desktop/Proyecto_final_arquitectura_de_computadoras/RTL/Fase_3/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}}
