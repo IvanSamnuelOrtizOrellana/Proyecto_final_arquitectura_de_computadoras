@@ -175,9 +175,7 @@ La subrutina `mod_sub` es invocada con `jal` (que guarda PC+4 en `$ra`) y retorn
 
 | Herramienta | Versión recomendada |
 |-------------|---------------------|
-| ModelSim-Altera | 20.1 o superior |
-| Quartus Prime (opcional, síntesis) | 21.1 o superior |
-| Sistema operativo | Windows 10/11 o Linux |
+| ModelSim- | 20.1 o superior |
 
 ---
 
