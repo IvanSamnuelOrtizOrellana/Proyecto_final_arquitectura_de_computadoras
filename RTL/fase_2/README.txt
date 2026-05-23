@@ -231,9 +231,8 @@ El algoritmo determina si `n` es primo probando divisores desde 2 hasta `n−1`.
 
 | Herramienta | Versión recomendada | Uso |
 |-------------|---------------------|-----|
-| ModelSim-Altera | 20.1 o superior | Simulación y verificación |
-| Vivado (Xilinx) | 2020.2 o superior | Síntesis opcional |
-| Quartus Prime (Altera) | 21.1 o superior | Síntesis opcional |
+| ModelSim | 20.1 o superior | Simulación y verificación |
+
 
 ---
 
